@@ -11,6 +11,9 @@
 		63BC92782818EF32008ECFEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC92772818EF32008ECFEB /* ContentView.swift */; };
 		63BC927A2818EF37008ECFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BC92792818EF37008ECFEB /* Assets.xcassets */; };
 		63BC927D2818EF37008ECFEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BC927C2818EF37008ECFEB /* Preview Assets.xcassets */; };
+		63BC92842818EF98008ECFEB /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC92832818EF98008ECFEB /* CameraService.swift */; };
+		63BC92862818F65B008ECFEB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC92852818F65B008ECFEB /* CameraView.swift */; };
+		63BC92882818FDA0008ECFEB /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC92872818FDA0008ECFEB /* CustomCameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		63BC92772818EF32008ECFEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		63BC92792818EF37008ECFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63BC927C2818EF37008ECFEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63BC92832818EF98008ECFEB /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		63BC92852818F65B008ECFEB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		63BC92872818FDA0008ECFEB /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				63BC92752818EF32008ECFEB /* AV_CameraApp.swift */,
+				63BC92852818F65B008ECFEB /* CameraView.swift */,
+				63BC92872818FDA0008ECFEB /* CustomCameraView.swift */,
 				63BC92772818EF32008ECFEB /* ContentView.swift */,
+				63BC92832818EF98008ECFEB /* CameraService.swift */,
 				63BC92792818EF37008ECFEB /* Assets.xcassets */,
 				63BC927B2818EF37008ECFEB /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				63BC92782818EF32008ECFEB /* ContentView.swift in Sources */,
 				63BC92762818EF32008ECFEB /* AV_CameraApp.swift in Sources */,
+				63BC92882818FDA0008ECFEB /* CustomCameraView.swift in Sources */,
+				63BC92842818EF98008ECFEB /* CameraService.swift in Sources */,
+				63BC92862818F65B008ECFEB /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +284,7 @@
 				DEVELOPMENT_TEAM = 8HM2AYWCH3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +314,7 @@
 				DEVELOPMENT_TEAM = 8HM2AYWCH3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
